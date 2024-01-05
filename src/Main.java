@@ -6,5 +6,6 @@ public class Main {
 
        System.out.println("New thing");
 
+       System.out.print("making an additional change");
     }
 }
