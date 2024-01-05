@@ -4,7 +4,10 @@ public class Main {
     public static void main(String[] args) {
        System.out.println("hello world");
 
+       printHeader();
        System.out.println("New thing");
+
+       printHeader();
 
        System.out.print("making an additional change");
     }
@@ -14,5 +17,7 @@ public class Main {
         System.out.println(message);
     }
 
-
+    private static void printHeader() {
+        System.out.println("*******************************");
+    }
 }
