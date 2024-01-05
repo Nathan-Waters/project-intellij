@@ -2,12 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-       printMessage("hello World");
+       System.out.println("hello world");
 
-       printHeader();
        System.out.println("New thing");
-
-       printHeader();
 
        System.out.print("making an additional change");
     }
@@ -17,7 +14,9 @@ public class Main {
         System.out.println(message);
     }
 
-    private static void printHeader() {
-        System.out.println("*******************************");
+    private static void printHello(){
+        System.out.println("hello");
     }
+
+
 }
